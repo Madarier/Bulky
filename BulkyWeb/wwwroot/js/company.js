@@ -8,10 +8,10 @@ function loadDataTable() {
         "ajax": { url: '/admin/company/getall' },
         "columns": [
             { "data": "name", "width": "15%" },
-            { "data": "streetAddress", "width": "15%" },
-            { "data": "city", "width": "15%" },
-            { "data": "state", "width": "15%" },
-            { "data": "phoneNumber", "width": "15%" },
+            { "data": "email", "width": "15%" },
+            { "data": "phone", "width": "15%" },
+            { "data": "company", "width": "15%" },
+            { "data": "role", "width": "15%" },
             {
                 data: 'id',
                 "render": function (data) {
